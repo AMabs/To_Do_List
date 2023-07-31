@@ -1,17 +1,6 @@
 let addButton = document.getElementById("addBtn")
 let taskList = document.getElementById("taskList")
 
-// let oldList = localStorage.getItem("k1")
-// if (oldList != null){
-//     let startingArr = JSON.parse(localStorage.getItem("k1"))
-
-//     startingArr.forEach(string => {
-//       let task = document.createElement("li")
-//       task.textContent = string
-//       taskList.appendChild(task)
-//     })
-// }
-
 addButton.addEventListener("click", (function() { 
   let task = document.createElement("li")
   let inputText = document.getElementById("inputTask")
